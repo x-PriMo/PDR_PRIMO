@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History- PDR PRIMO</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="ReturnUp.css">
+    <script src="ReturnUp.js"></script>
+</head>
+<body>
+
+<?php include 'header_nav.php'; ?>
+
+<section class="conthistory">
+<div>
+    <h4>PDR – Co to jest i jego historia</h4>
+        
+    <p><strong>PDR</strong> to skrót od angielskiego terminu <em>Paintless Dent Repair</em>, który oznacza naprawę wgnieceń bez konieczności malowania. Jest to technika stosowana w naprawie karoserii samochodowych, polegająca na usuwaniu wgnieceń z blachy pojazdu bez naruszania oryginalnej powłoki lakierniczej. PDR zdobyło dużą popularność w branży motoryzacyjnej dzięki swojej efektywności, szybkości oraz zachowaniu oryginalnej powłoki lakierniczej pojazdu.</p>
+
+    <h2>Historia PDR</h2>
+
+    <p>Historia PDR sięga lat 60. XX wieku. Pierwsze wzmianki o stosowaniu tej metody pojawiły się w Niemczech, gdzie wynalazcy i inżynierowie motoryzacyjni zaczęli eksperymentować z metodami naprawy blach bez konieczności malowania. Technikę tę początkowo stosowano głównie do napraw drobnych uszkodzeń powstałych w wyniku wypadków drogowych, takich jak zderzenia parkingowe, gdzie wgniecenia były stosunkowo niewielkie, a naprawa wymagała minimalnych kosztów.</p>
+
+    <p>Pierwszymi, którzy dostrzegli potencjał w tej metodzie, byli mechanicy samochodowi, którzy początkowo używali narzędzi ręcznych do usuwania wgnieceń. Dopiero z czasem, po dalszym rozwoju technologii i narzędzi, metoda ta stała się bardziej precyzyjna, a same narzędzia zostały zaprojektowane w sposób umożliwiający skuteczne i szybkie usuwanie wgnieceń.</p>
+
+    <h2>Rozwój technologii</h2>
+
+    <p>W latach 70. i 80. XX wieku, technika PDR zaczęła być popularna w Stanach Zjednoczonych, szczególnie wśród dealerów samochodowych oraz warsztatów zajmujących się renowacją pojazdów. Wówczas narzędzia stosowane w PDR zaczęły ewoluować, a proces naprawy stał się bardziej precyzyjny. Wraz z postępem technologicznym, rozwijały się także metody pozwalające na usuwanie coraz bardziej złożonych wgnieceń. Mechanicy zaczęli stosować podgrzewanie blachy, aby ułatwić proces prostowania metalu, a także specjalistyczne oświetlenie, które umożliwia dokładną ocenę uszkodzenia.</p>
+
+    <p>Pod koniec lat 90. PDR stało się standardową metodą naprawy w wielu warsztatach motoryzacyjnych na całym świecie. Rozwój technologii narzędzi, jak również coraz lepsze zrozumienie struktury materiałów wykorzystywanych w produkcji nowoczesnych pojazdów, pozwoliły na zastosowanie tej techniki w szerszym zakresie – nie tylko w przypadku małych wgnieceń, ale również przy bardziej skomplikowanych uszkodzeniach.</p>
+
+    <h2>PDR dzisiaj</h2>
+
+    <p>Dziś, naprawa wgnieceń bez malowania jest szeroko stosowana w branży motoryzacyjnej i stała się popularną alternatywą dla tradycyjnych metod naprawy. PDR wykorzystywane jest do usuwania wgnieceń powstałych w wyniku drobnych uderzeń, takich jak zderzenia parkingowe, wgniecenia spowodowane przez grad, a także w przypadku uszkodzeń spowodowanych przez niekorzystne warunki atmosferyczne (np. silny wiatr).</p>
+
+    <p>Technika ta jest szczególnie ceniona wśród właścicieli pojazdów, którzy chcą zachować oryginalną powłokę lakierniczą i nie ponosić kosztów związanych z malowaniem całych elementów nadwozia. Naprawy PDR są również szybkie i znacznie tańsze w porównaniu do tradycyjnych metod, co czyni je atrakcyjną opcją dla osób, które chcą zaoszczędzić na kosztach naprawy.</p>
+
+    <h2>Zalety PDR</h2>
+    <ul>
+        <li><strong>Oszczędność czasu i pieniędzy</strong> – Naprawy PDR są szybkie, zazwyczaj zajmują od kilku godzin do jednego dnia, co sprawia, że koszt naprawy jest niższy w porównaniu do tradycyjnych metod.</li>
+        <li><strong>Brak potrzeby malowania</strong> – Ponieważ technika polega na usuwaniu wgnieceń bez ingerencji w powłokę lakierniczą, nie ma ryzyka uszkodzenia oryginalnego lakieru.</li>
+        <li><strong>Bez ingerencji w strukturę nadwozia</strong> – W PDR nie dochodzi do wymiany elementów nadwozia, co zmniejsza ryzyko błędów związanych z montażem nowych części.</li>
+        <li><strong>Ekologiczność</strong> – Brak potrzeby używania szkodliwych farb i chemikaliów sprawia, że PDR jest bardziej przyjazne dla środowiska.</li>
+    </ul>
+
+    <h2>Podsumowanie</h2>
+
+    <p><strong>PDR</strong> to metoda naprawy, która zrewolucjonizowała sposób, w jaki naprawiane są wgniecenia w karoserii samochodów. Dzięki swojej efektywności, oszczędności czasu i pieniędzy, a także minimalizacji ingerencji w oryginalną powłokę lakierniczą, stała się popularną metodą w branży motoryzacyjnej. Począwszy od lat 60. XX wieku, PDR przeszło długą drogę ewolucji, stając się jedną z najczęściej stosowanych technik naprawczych na całym świecie.</p>
+</div>
+</section>
+
+<button id="scrollToTopBtn" onclick="scrollToTop()">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff" viewBox="0 0 256 256">
+        <path d="M208,80v88a64,64,0,0,1-128,0V51.31L45.66,85.66A8,8,0,0,1,34.34,74.34l48-48a8,8,0,0,1,11.32,0l48,48a8,8,0,0,1-11.32,11.32L96,51.31V168a48,48,0,0,0,96,0V80a8,8,0,0,1,16,0Z"></path>
+    </svg>
+</button>
+
+
+<footer>
+    <p>&copy; 2024 PDR PRIMO. Wszelkie prawa zastrzeżone.</p>
+</footer>
+
+</body>
+</html>
