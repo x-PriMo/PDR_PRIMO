@@ -4,53 +4,229 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PDR PRIMO</title>
+    <title>PDR PRIMO - Premium Car Dent Removal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="ReturnUp.css">
+    <script src="ReturnUp.js"></script>
 </head>
 <body>
 
-<header>
-    <h1>PDR PRIMO</h1>
-</header>
-<nav>
-    <div class="nav-center">
-        <a href="index.html">O nas</a>
-        <a href="pdrhistory.html">PDR</a>
-        <a href="services.html">Usługi</a>
-        <a href="gallery.html">Galeria</a>
-        <a href="contact.html">Kontakt</a>
+<!-- Ekran ładowania -->
+<div id="loading-screen" class="loading-screen">
+    <div class="loading-content">
+        <img src="Gallery/LOGO3PDR.png" alt="PDR PRIMO Logo" class="loading-logo" />
+        <div class="loading-spinner"></div>
+        <div class="loading-subtitle">Premium Car Dent Removal</div>
     </div>
-</nav>
+</div>
 
-<section class="about-section">
-    <div class="about-left">
-        <h2>O nas</h2>
-        <p>
-            <strong>PDR PRIMO</strong> to firma specjalizująca się w profesjonalnym usuwaniu wgnieceń karoserii bez konieczności lakierowania. Stosujemy zaawansowane techniki <b>Paintless Dent Repair (PDR)</b>, które pozwalają przywrócić wygląd pojazdu do stanu pierwotnego bez ingerencji w oryginalną powłokę lakierniczą.
-        </p>
-        <p>
-            Nasz zespół składa się z doświadczonych fachowców, którzy dzięki nowoczesnym narzędziom i precyzji naprawiają nawet najbardziej wymagające uszkodzenia. Działamy z pasją, dbając o detale, aby każdy klient był w pełni zadowolony z efektów naszej pracy.
-        </p>
-        <p>
-            <b>Dlaczego warto wybrać PDR PRIMO?</b>
-            <ul>
-                <li>Bezpieczna i ekologiczna metoda naprawy – bez szpachli i lakierowania.</li>
-                <li>Szybka realizacja zleceń – naprawy wykonujemy w krótkim czasie.</li>
-                <li>Oszczędność kosztów – brak potrzeby lakierowania znacznie redukuje wydatki.</li>
-            </ul>
-        </p>
-        <p>
-            Zaufaj specjalistom, którzy stawiają na jakość, precyzję i innowację. Jesteśmy tu, aby pomóc Ci zadbać o Twój pojazd.
-        </p>
+<!-- Główna zawartość strony -->
+<div id="main-content" class="main-content" style="display: none;">
+    <header>
+        <div class="header-container">
+            <div class="header-logo-section">
+                <img src="Gallery/LOGO2PDR.png.png" alt="Logo PDR Primo" class="header-logo" style="width:200px;max-height:90px;" />
+            </div>
+            <div class="header-actions">
+                <div class="coin-container">
+                    <div class="coin" id="coinMenu">
+                        <div class="coin-front">
+                            <img src="Gallery/Menu.png" alt="Menu" class="coin-menu-icon" />
+                        </div>
+                        <div class="coin-back">
+                            <img src="Gallery/LOGO1PDR.png" alt="PDR Primo" class="coin-logo" />
+                        </div>
+                    </div>
+                    <div class="dropdown-menu" id="dropdownMenu">
+                        <a href="index.html" class="dropdown-item">O nas</a>
+                        <a href="pdrhistory.html" class="dropdown-item">PDR</a>
+                        <a href="services.html" class="dropdown-item">Usługi</a>
+                        <a href="gallery.html" class="dropdown-item">Galeria</a>
+                        <a href="contact.html" class="dropdown-item">Kontakt</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <!-- Lewa kolumna - główna treść -->
+        <div class="content-left">
+            <h1 style="color:#ffd700; font-size:3.5rem; margin-bottom:30px; text-shadow:0 2px 8px #003a1d88; line-height:1.2;">
+                Profesjonalne<br>
+                <span style="color:#e6c200;">Usuwanie Wgnieceń</span>
+            </h1>
+            
+            <p style="color:#f5f5f5; font-size:1.3rem; line-height:1.8; margin-bottom:30px;">
+                <strong style="color:#ffd700;">PDR PRIMO</strong> to firma specjalizująca się w profesjonalnym usuwaniu wgnieceń karoserii bez konieczności lakierowania. Stosujemy zaawansowane techniki <b style="color:#ffd700;">Paintless Dent Repair (PDR)</b>.
+            </p>
+            
+            <div style="background:rgba(0,45,23,0.6); padding:25px; border-radius:16px; border:2px solid #ffd70044; margin:30px 0;">
+                <h3 style="color:#ffd700; font-size:1.8rem; margin-bottom:20px;">Dlaczego warto wybrać PDR PRIMO?</h3>
+                <ul style="color:#f5f5f5; font-size:1.1rem; line-height:2;">
+                    <li style="margin-bottom:12px;">🛡️ <strong style="color:#ffd700;">Bezpieczna i ekologiczna metoda</strong></li>
+                    <li style="margin-bottom:12px;">⚡ <strong style="color:#ffd700;">Szybka realizacja zleceń</strong></li>
+                    <li style="margin-bottom:12px;">💰 <strong style="color:#ffd700;">Oszczędność kosztów</strong></li>
+                </ul>
+            </div>
+            
+            <button class="btn glossy" style="font-size:1.3rem; padding:18px 45px; margin-top:20px;">
+                🚗 Sprawdź nasze usługi
+            </button>
+            
+            <p style="color:#f5f5f5; font-size:1rem; margin-top:20px; opacity:0.8;">
+                Darmowa wycena • Szybka realizacja • Gwarancja jakości
+            </p>
+        </div>
+        
+        <!-- Prawa kolumna - formularz kontaktowy -->
+        <div class="contact-right">
+            <div class="contact-card">
+                <div class="contact-header">
+                    <h2 style="color:#ffd700; font-size:2.2rem; margin-bottom:10px;">Skontaktuj się z nami</h2>
+                    <p style="color:#f5f5f5; font-size:1.1rem;">Otrzymaj darmową wycenę w ciągu 24h</p>
+                </div>
+                
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Imię i nazwisko</label>
+                        <input type="text" id="name" name="name" placeholder="Wprowadź swoje imię i nazwisko" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Adres email</label>
+                        <input type="email" id="email" name="email" placeholder="twoj@email.com" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Numer telefonu</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+48 XXX XXX XXX" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Opis uszkodzenia</label>
+                        <textarea id="message" name="message" placeholder="Opisz uszkodzenie swojego pojazdu..." rows="4"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn glossy" style="width:100%; font-size:1.2rem; padding:15px;">
+                        📧 Wyślij wiadomość
+                    </button>
+                </form>
+            </div>
+        </div>
     </div>
-    <div class="about-right">
-        <img src="Gallery/index.jpg" alt="PDR PRIMO - o nas">
-    </div> 
-</section>
 
-<footer>
-    <p>&copy; 2024 PDR PRIMO. Wszelkie prawa zastrzeżone.</p>
-</footer>
+    <button id="scrollToTopBtn" class="btn glossy" onclick="scrollToTop()" aria-label="Powrót na górę">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#ffd700" viewBox="0 0 256 256" class="icon-gold">
+            <path d="M208,80v88a64,64,0,0,1-128,0V51.31L45.66,85.66A8,8,0,0,1,34.34,74.34l48-48a8,8,0,0,1,11.32,0l48,48a8,8,0,0,1-11.32,11.32L96,51.31V168a48,48,0,0,0,96,0V80a8,8,0,0,1,16,0Z"></path>
+        </svg>
+    </button>
 
+    <footer class="glossy">
+        <p>&copy; 2024 PDR PRIMO. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+</div>
+
+<script>
+    // Skrypt ładowania strony
+    window.addEventListener('load', function() {
+        setTimeout(function() {
+            document.getElementById('loading-screen').style.opacity = '0';
+            document.getElementById('main-content').style.display = 'block';
+            
+            setTimeout(function() {
+                document.getElementById('loading-screen').style.display = 'none';
+            }, 500);
+        }, 2000); // 2 sekundy ładowania
+    });
+</script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const coin = document.querySelector('.coin');
+            const dropdownMenu = document.getElementById('dropdownMenu');
+            const menuIcon = document.getElementById('menuIcon');
+            let isMenuOpen = false;
+
+            // Animacja monety (obrót) – tylko kliknięcie poza menuIcon
+            if (coin) {
+                coin.addEventListener('click', function(e) {
+                    if (e.target === menuIcon) return;
+                    this.style.transform = this.style.transform === 'rotateY(180deg)'
+                        ? 'rotateY(0deg)'
+                        : 'rotateY(180deg)';
+                });
+                coin.addEventListener('mouseenter', function() {
+                    if (window.innerWidth > 768) {
+                        this.style.transform = 'rotateY(180deg)';
+                    }
+                });
+                coin.addEventListener('mouseleave', function() {
+                    if (window.innerWidth > 768) {
+                        this.style.transform = 'rotateY(0deg)';
+                    }
+                });
+            }
+
+            // Kliknięcie w Menu.png (menuIcon) – pokazuje/zamyka menu bar
+            if (menuIcon) {
+                menuIcon.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    dropdownMenu.classList.toggle('show');
+                    isMenuOpen = !isMenuOpen;
+                });
+            }
+
+            // Zamykanie menu po kliknięciu poza nim
+            document.addEventListener('click', function(event) {
+                if (dropdownMenu && !dropdownMenu.contains(event.target) && event.target !== menuIcon) {
+                    dropdownMenu.classList.remove('show');
+                    isMenuOpen = false;
+                }
+            });
+        });
+    </script>
+    <script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Uniwersalny coin flip menu toggle
+    const coin = document.getElementById('coinMenu');
+    const dropdownMenu = document.getElementById('dropdownMenu');
+    let coinFlipped = false;
+    if(coin) {
+        coin.addEventListener('click', function(e) {
+            e.stopPropagation();
+            coinFlipped = !coinFlipped;
+            if(coinFlipped) {
+                coin.style.transform = 'rotateY(180deg)';
+                dropdownMenu.classList.add('show');
+            } else {
+                coin.style.transform = 'rotateY(0deg)';
+                dropdownMenu.classList.remove('show');
+            }
+        });
+    }
+    // Zamknij menu po kliknięciu w link
+    if(dropdownMenu) {
+        dropdownMenu.querySelectorAll('a').forEach(function(link) {
+            link.addEventListener('click', function() {
+                dropdownMenu.classList.remove('show');
+                if(coin) coin.style.transform = 'rotateY(0deg)';
+                coinFlipped = false;
+            });
+        });
+    }
+    // Zamknij menu po kliknięciu poza menu
+    document.addEventListener('click', function(e) {
+        if(coinFlipped && !dropdownMenu.contains(e.target) && e.target !== coin) {
+            dropdownMenu.classList.remove('show');
+            if(coin) coin.style.transform = 'rotateY(0deg)';
+            coinFlipped = false;
+        }
+    });
+});
+</script>
 </body>
 </html> 
